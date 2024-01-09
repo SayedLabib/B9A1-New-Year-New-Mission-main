@@ -3,6 +3,30 @@
     padding: 0;
 }
 
+
+/* Shared Styling */
+
+.span-color{
+    color: #FF0000;
+}
+
+
+.btn-primary{
+    margin-top: 24px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: 0;
+    background: #F00;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 126px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    
+}
+
 /* Styling banner section */
 
 
@@ -125,5 +149,60 @@
     background-repeat: no-repeat;
     background-size: cover;
     fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+
+
+/* Styling place-date-time */
+
+.place-date-time{
+  margin-top: 120px;
+  width: 1320px;
+  height: 482px;
+  background-color: linear-gradient(180deg, rgba(255, 208, 208, 0.966) 0%, rgb(255, 255, 255) 100%);
+}
+
+.details{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.details h2{
+    margin-top: 24px;
+}
+
+
+
+/* styling Holidays deal */
+
+.holiday-sale{
+    /* margin-top: 120px; */
+    text-align: center;
+}
+
+.holiday-sale>h3{
+    color: #070211;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+   
+}
+
+.holiday-sale>h1{
+  margin-bottom: 24px;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+
+}
+
+.holiday-sale>p{
+    margin-bottom: 64px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
 
 }
