@@ -353,16 +353,21 @@ input::placeholder{
 
 .btn-second{
    width: 210px;
-   height: 72px;
+   height: 78px;
    border-radius: 0px 50px 50px 0px;
    background: #F00;
    color: #FFF;
    font-family: Inter;
    font-size: 20px;
    font-weight: 600;
+   padding-right: 5px;
 
 }
 
 .provide-email{
     justify-content: center;
+    align-items: center;
+    gap: 0;
 }
+
+
