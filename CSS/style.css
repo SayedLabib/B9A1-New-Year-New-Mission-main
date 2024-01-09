@@ -6,7 +6,7 @@
 /* Styling banner section */
 
 
-.banner{
+.banner-bg{
     
     /* justify-content: center; */
     /* margin: 50px,140px,120px,140px; */
@@ -19,7 +19,8 @@
     /* background-position: center; */
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);}
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+}
 
 .banner>h3{
     padding-top: 170px;
@@ -72,9 +73,57 @@
 }
 .offer>img{
     margin-top: 48px;
+    margin-bottom: 120px;
 }
 
 .offer{
     text-align: center;
     justify-content: center;
+}
+
+/* Styling the midnight party section */
+
+.mid-night-header{
+    vertical-align: auto;
+    padding-left: 126px;
+    padding-top: 126px;
+}
+
+.mid-night-header h1{
+    
+    margin-bottom: 24px;
+    color: white;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+
+.mid-night-header p{
+    margin-bottom: 48px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.mid-night-header h3{
+    color: white;
+  
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;  
+}
+
+.mid-night-party{
+    margin-top: 126px;
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
 }
