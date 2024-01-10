@@ -27,7 +27,7 @@
 /* Styling banner section */
 
 
-.banner-bg{
+.banner-image{
     
     /* justify-content: center; */
     /* margin: 50px,140px,120px,140px; */
@@ -71,7 +71,7 @@
 
 /* Styling the offer section  */
 
-.offer>h1{
+.deals-offer>h1{
     margin-top: 120px;
     color: #F00;
 
@@ -80,7 +80,7 @@
     font-weight: 700;
 
 }
-.offer>h3{
+.deals-offer>h3{
     margin-top: 48px;
     color: #F00;
     font-family: Inter;
@@ -88,7 +88,7 @@
     font-weight: 500;
 
 }
-.offer>h2{
+.deals-offer>h2{
     margin-top: 10px;
     color: #070211;
     font-family: Inter;
@@ -96,25 +96,25 @@
     font-weight: 700;
    
 }
-.offer>img{
+.deals-offer>img{
     margin-top: 48px;
     margin-bottom: 120px;
 }
 
-.offer{
+.deals-offer{
     text-align: center;
     justify-content: center;
 }
 
 /* Styling the midnight party section */
 
-.mid-night-header{
+.night-header{
     vertical-align: auto;
     padding-left: 126px;
     padding-top: 126px;
 }
 
-.mid-night-header h1{
+.night-header h1{
     
     margin-bottom: 24px;
     color: white;
@@ -125,16 +125,15 @@
 }
 
 
-.mid-night-header p{
+.night-header p{
     margin-bottom: 48px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
 }
 
-.mid-night-header h3{
+.night-header h3{
     color: white;
   
     font-family: Inter;
@@ -142,7 +141,7 @@
     font-weight: 700;  
 }
 
-.mid-night-party{
+.night-party{
     margin-top: 126px;
     border-radius: 16px;
     background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url(../resources/Vectorrr.png);
@@ -150,46 +149,46 @@
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin-left: 30px; */
-    /* margin: auto; */
+    
 }
 
 
-/* Styling place-date-time */
+/* Styling date-time section */
 
-.place-date-time{
+.date-time-section{
   margin-top: 120px;
   width: 1320px;
   height: 482px;
   background: linear-gradient(180deg, rgba(255, 208, 208, 0.966) 0%, rgb(255, 255, 255) 100%);
   margin-bottom: 120px;
-  /* margin-left: 30px; */
+  
   
 
 }
 
-.details{
+.detail-inside{
     padding-top: 100px;
     text-align: center;
     justify-content: center;
 }
-.details>h2{
+.detail-inside>h2{
     margin-top: 24px;
     
 }
 
-/* Styling the Optional New Best offer section */
+/* Styling the Optional  section */
 
 
-.Best-offer{
-
+.best-offer{
     width: 1320px;
     height: 482px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
+    margin-inline: 20px;
+    margin-bottom: 120px;
 }
 
-.middle-section{
+.middle-part{
     
     
     width: 398px;
@@ -199,7 +198,7 @@
 
 }
 
-.middle-section>img{
+.middle-part>img{
     
     width: 364.844px;
     height: 364.844px;
@@ -209,10 +208,11 @@
 
 }
 
+.left-part{
+    padding-top: 50px;
+}
 
-
-
-.left-section>h3{
+.left-part>h3{
     
 color: #F00;
 font-family: Inter;
@@ -221,7 +221,7 @@ font-weight: 500;
 
 }
 
-.left-section>h1{
+.left-part>h1{
 
 color: #070211;
 font-family: Merriweather;
@@ -229,7 +229,7 @@ font-size: 48px;
 font-weight: 900;
 }
 
-.left-section>p{
+.left-part>p{
 
 color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
@@ -239,7 +239,11 @@ font-weight: 400;
 
 }
 
-.right-section>h2{
+.right-part{
+    padding-top: 50px;
+}
+
+.right-part>h2{
     color: #F00;
     font-family: Inter;
     font-size: 48px;
@@ -247,11 +251,11 @@ font-weight: 400;
     
 }
 
-.right-section>p{
+.right-part>p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
+    
     font-weight: 400;
 }
 
@@ -259,15 +263,15 @@ font-weight: 400;
 
 
 
-/* styling Holidays deal */
+/* styling Holidays deal section */
 
-.holiday-sale{
-    /* margin-top: 120px; */
+.holidays-section{
+    
     text-align: center;
-    /* margin-left: 30px; */
+    
 }
 
-.holiday-sale>h3{
+.holidays-section>h3{
     color: #070211;
 
     font-family: Inter;
@@ -277,7 +281,7 @@ font-weight: 400;
    
 }
 
-.holiday-sale>h1{
+.holidays-section>h1{
   margin-bottom: 24px;
 font-family: Merriweather;
 font-size: 72px;
@@ -285,7 +289,7 @@ font-weight: 900;
 
 }
 
-.holiday-sale>p{
+.holidays-section>p{
     margin-bottom: 64px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -294,13 +298,15 @@ font-weight: 900;
 
 }
 
-/* styling holiday sales  */
+
+
+/* styling holiday sales images */
 
 .image{
    width: 1320px;
    height: 600px;
    position: relative;
-   /* overflow: hidden; */
+  
    margin-bottom: 120px;
 }
 
@@ -309,7 +315,7 @@ font-weight: 900;
     margin-left: 883px;
     margin-bottom: 0px;
         
-    /* float: right; */   
+       
     
 }
 
@@ -333,16 +339,15 @@ font-weight: 900;
 }
 
 
-/* Styling product portfolios */
+/* Styling products details in awesome portfolios */
 
-.Awesome-products-row-1{
+.Awesome-products{
      
      grid-template-columns: repeat(3, 1fr); /* 3 columns */
      gap: 24px; 
-     /* padding-left: 20px;
-     padding-right: 20px; */
      
-    /* display: flex; */
+     
+    
 } 
 
 #product-image{
@@ -350,7 +355,7 @@ font-weight: 900;
     height: 450px;
 }
 
-.Awesome-portfolio{
+.portfolio{
     margin-top: 120px;
     
     vertical-align: auto;
@@ -359,7 +364,7 @@ font-weight: 900;
     margin-bottom: 120px;
 }
 
-.Awesome-portfolio>h3{
+.portfolio>h3{
     color: #F00;
 font-family: Inter;
 font-size: 24px;
@@ -367,7 +372,7 @@ font-weight: 500;
 
 }
 
-.Awesome-portfolio>h1{
+.portfolio>h1{
     color: #070211;
 font-family: Merriweather;
 font-size: 48px;
@@ -375,7 +380,7 @@ font-weight: 900;
 
 }
 
-.Awesome-portfolio>p{
+.portfolio>p{
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
@@ -384,9 +389,9 @@ font-weight: 400;
 }
 
 
-/* Styling Subscribe-newsletter section */
+/* Styling newsletter part */
 
-.Subscribe{
+.subscribe{
     
     height: 616px;
     margin: 120px 20px;
@@ -402,7 +407,7 @@ font-weight: 400;
     height: 150px;
 }
 
-.news-letter>h1{
+.letter>h1{
     color: #070211; 
     font-family: Merriweather;
     font-size: 48px;
@@ -410,7 +415,7 @@ font-weight: 400;
     
 }
 
-.news-letter>p{
+.letter>p{
     margin-top: 22px;
     font-family: Inter;
     font-size: 20px;
@@ -437,7 +442,7 @@ input::placeholder{
     font-weight: 400;    
 }
 
-.btn-second{
+.button-second{
    width: 210px;
    height: 78px;
    border-radius: 0px 50px 50px 0px;
@@ -450,13 +455,13 @@ input::placeholder{
 
 }
 
-.provide-email{
+.Email{
     justify-content: center;
     align-items: center;
     gap: 0;
 }
 
-/* Styling the footer section -  */
+/* Styling the footer part */
 
 .footer{
     background-color: #070211;
@@ -466,7 +471,7 @@ input::placeholder{
     justify-content: center;
 }
 
-.first-row{
+.first-part{
     
     margin-bottom: 50px;
     display: flex;
@@ -496,38 +501,40 @@ font-size: 15px;
 
 }
 
+
+
 hr{
     margin-left: 140px;
     margin-right: 140px;
-    /* height: 1px; */
+   
     width: 1320;
     background: hsla(0, 10%, 96%, 0.438);
-    /* vertical-align: auto; */
+    
 }
 
 
-.image-section{
+.image-part{
     display: flex;
     justify-content: center;   
 }
 
-.image-section>img{
+.image-part>img{
     margin-top: 48px;
     margin-bottom: 48px;
     margin-inline: 24px;
 }
 
-.second-row{
+.second-part{
     display: flex;
     justify-content: space-around;
 }
-.second-row>p{
+.second-part>p{
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
 }
 
 
-#right-side{
+#right-part{
     padding-left: 480px;
 }
