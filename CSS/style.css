@@ -21,7 +21,12 @@
     font-size: 20px;
     font-weight: 700;
     color: #FFF;
-    
+    cursor: pointer;
+    transition: 0s;
+}
+
+.btn-primary{
+    background-color:rgb(205, 32, 32);
 }
 
 /* Styling banner section */
@@ -338,6 +343,21 @@ font-weight: 900;
    right:20% ;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 280px;
+    border-radius: 206.841px;
+    background: rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.1s ease;
+}
+
+.img-3:hover .overlay{
+    opacity: 1;
+}
 
 /* Styling products details in awesome portfolios */
 
@@ -345,10 +365,12 @@ font-weight: 900;
      
      grid-template-columns: repeat(3, 1fr); /* 3 columns */
      gap: 24px; 
-     
-     
+          
     
 } 
+
+
+
 
 #product-image{
     width: 424px;
@@ -452,7 +474,12 @@ input::placeholder{
    font-size: 20px;
    font-weight: 600;
    padding-right: 5px;
+   cursor: pointer;
+   transition: 0s;
+}
 
+.button-second:hover{
+    background-color:rgb(205, 32, 32); 
 }
 
 .Email{
