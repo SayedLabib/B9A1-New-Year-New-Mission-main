@@ -41,7 +41,8 @@
     /* background-position: center; */
     justify-content: center;
     
-    margin: auto;
+    /* margin: auto; */
+    /* margin-left: 30px; */
 
 } 
 
@@ -143,13 +144,14 @@
 
 .mid-night-party{
     margin-top: 126px;
+    border-radius: 16px;
     background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url(../resources/Vectorrr.png);
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    margin: auto;
+    /* margin-left: 30px; */
+    /* margin: auto; */
 }
 
 
@@ -161,6 +163,9 @@
   height: 482px;
   background: linear-gradient(180deg, rgba(255, 208, 208, 0.966) 0%, rgb(255, 255, 255) 100%);
   margin-bottom: 120px;
+  /* margin-left: 30px; */
+  
+
 }
 
 .details{
@@ -180,6 +185,7 @@
 .holiday-sale{
     /* margin-top: 120px; */
     text-align: center;
+    /* margin-left: 30px; */
 }
 
 .holiday-sale>h3{
@@ -267,6 +273,7 @@ font-weight: 900;
 
 .Awesome-portfolio{
     margin-top: 120px;
+    
     vertical-align: auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -373,10 +380,10 @@ input::placeholder{
 /* Styling the footer section -  */
 
 .footer{
-    background: #070211;
-    width: 1300px;
+    background-color: #070211;
+    width: 1320px;
     height: 600px;
-    padding-right: 100px;
+    
     justify-content: center;
 }
 
