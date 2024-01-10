@@ -33,37 +33,37 @@
     /* margin: 50px,140px,120px,140px; */
     width: 1320px;
     height: 600px;
-    
-    background-image:url(../resources/Banner\ Image.png);
+    position: relative;
+    border-radius: 16px;
+    background:linear-gradient(180deg, rgba(7, 2, 17, 0.7) 0%, rgba(7, 2, 17, 0) 100%),url(../resources/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
     justify-content: center;
-    border-radius: 16px;
+    
     margin: auto;
 
+} 
 
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-}
 
 .banner>h3{
     padding-top: 170px;
     padding-bottom: 20px;
-    color: #FFF;
+    color: white;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+   
 
 }
 .banner>h1{
-    color: #FFF;
+    color: white;
     text-align: center; 
     font-family: Merriweather;
     font-size: 72px; 
-    font-style: normal;
     font-weight: 900;
-    line-height: 95px;    
+       
 }
 
 /* Styling the body main section  */
@@ -143,12 +143,12 @@
 
 .mid-night-party{
     margin-top: 126px;
-    background-image: url(../resources/Vectorrr.png);
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url(../resources/Vectorrr.png);
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    
     margin: auto;
 }
 
@@ -159,16 +159,16 @@
   margin-top: 120px;
   width: 1320px;
   height: 482px;
-  background-color: linear-gradient(180deg, rgba(255, 208, 208, 0.966) 0%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(180deg, rgba(255, 208, 208, 0.966) 0%, rgb(255, 255, 255) 100%);
   margin-bottom: 120px;
 }
 
 .details{
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
     justify-content: center;
 }
-.details h2{
+.details>h2{
     margin-top: 24px;
     
 }
@@ -389,7 +389,7 @@ input::placeholder{
 
 .left-side > p{
 
-    margin-top: 120px;   
+margin-top: 120px;   
 color: #FFF;
 font-family: Inter;
 font-size: 15px;
@@ -428,8 +428,7 @@ hr{
 .image-section>img{
     margin-top: 48px;
     margin-bottom: 48px;
-    margin-inline: 24px
-    ;
+    margin-inline: 24px;
 }
 
 .second-row{
@@ -438,8 +437,8 @@ hr{
 }
 .second-row>p{
     color: #FFF;
-font-family: Inter;
-font-size: 15px;
+    font-family: Inter;
+    font-size: 15px;
 }
 
 
