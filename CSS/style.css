@@ -25,7 +25,7 @@
     transition: 0s;
 }
 
-.btn-primary{
+.btn-primary:hover{
     background-color:rgb(205, 32, 32);
 }
 
